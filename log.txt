@@ -1,0 +1,51 @@
+Number of rules: 5
+selector 1: TextView, TextEdit
+---------------------------------------
+property: textSize
+value: 14dp
+priority: 
+---------------------------------------
+property: textColor
+value: rgb(63, 81, 181)
+priority: 
+<--------------------end of rule------------------->
+selector 2: .sidebar .title
+---------------------------------------
+property: padding
+value: "80dp,16dp,16dp,16dp"
+priority: 
+---------------------------------------
+property: backgroundColor
+value: rgb(76, 175, 80)
+priority: 
+<--------------------end of rule------------------->
+selector 3: .title GradientDrawable
+---------------------------------------
+property: gradientType
+value: 0
+priority: 
+---------------------------------------
+property: orientation
+value: "BR_TL"
+priority: 
+---------------------------------------
+property: colors
+value: rgb(129, 199, 132) rgb(76, 175, 80) rgb(46, 125, 50)
+priority: 
+<--------------------end of rule------------------->
+selector 4: .title TextView
+---------------------------------------
+property: textColor
+value: rgb(255, 255, 255)
+priority: 
+<--------------------end of rule------------------->
+selector 5: TabLayout
+---------------------------------------
+property: backgroundColor
+value: rgb(121, 134, 203)
+priority: 
+---------------------------------------
+property: padding
+value: "1dp,1dp,1dp,1dp"
+priority: 
+<--------------------end of rule------------------->
