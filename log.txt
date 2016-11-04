@@ -49,3 +49,35 @@ property: padding
 value: "1dp,1dp,1dp,1dp"
 priority: 
 <--------------------end of rule------------------->
+
+without 8bit
+Rule{, specificity=1}
+Rule{, specificity=1}
+Rule{, specificity=20}
+Rule{, specificity=11}
+Rule{, specificity=11}
+Rule{, specificity=1}
+
+
+Rule{, specificity=1}
+Rule{, specificity=1}
+Rule{, specificity=14}
+Rule{, specificity=b}
+Rule{, specificity=b}
+Rule{, specificity=1}
+
+with 8bit
+Rule{, specificity=1}
+Rule{, specificity=1}
+Rule{, specificity=20}
+Rule{, specificity=11}
+Rule{, specificity=11}
+Rule{, specificity=1}
+
+Rule{, specificity=1}
+Rule{, specificity=1}
+Rule{, specificity=14}
+Rule{, specificity=b}
+Rule{, specificity=b}
+Rule{, specificity=1}
+

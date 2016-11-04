@@ -9,6 +9,8 @@
 package com.study.processor.model;
 
 
+import org.w3c.css.sac.Selector;
+
 import java.util.List;
 
 
@@ -17,9 +19,10 @@ import java.util.List;
 public final class Rule
 {
 
-protected String selector;
-public String getSelector() { return selector; }
-public void setSelector(String selector) { this.selector = selector; }
+
+protected Selector selector;
+public Selector getSelector() { return selector; }
+public void setSelector(Selector selector) { this.selector = selector; }
 
 protected List<Property> properties;
 public List<Property> getProperties() { return properties; }
@@ -28,27 +31,27 @@ public void setProperties(List<Property> properties) { this.properties = propert
 protected int specificity;
 public int getSpecificity() { return specificity; }
 public void setSpecificity(int specificity) { this.specificity = specificity; }
+
+
 //----------------------------------------------------------------------
 
 
 public Rule()
-{
-}
+{ }
 
-public Rule(String selector, List<Property> properties, Integer specificity)
-{
-  this.selector = selector;
-  this.properties = properties;
-  this.specificity = specificity;
-}
 
 //----------------------------------------------------------------------
 
 
-
-
-
-
+@Override
+public String toString()
+{
+  return "Rule{" +
+          "selector='" + selector + '\'' +
+          ", properties=" + properties +
+          ", specificity=" + Integer.toString(specificity, 16) +
+          '}';
+}
 
 
 }
